@@ -135,5 +135,46 @@ body{
     
 }
 
+/* seccion imagenes  */
+
+#galeria{
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 290px auto;
+
+}
+
+.gallery{
+    overflow: hidden;
+    
+
+}
+
+.gallery img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(1);
+    transform-origin: center;
+    position: relative;
+
+}
+
+.txt{
+    width: 180px;
+    display: none;
+    padding: 18px;
+    font-weight: 300;
+}
+
+.gallery img:hover{
+    transform: scale(1.5);
+    filter: grayscale(0);
+    z-index: 5;
+}
+
+
 
 
