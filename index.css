@@ -52,11 +52,14 @@ body{
     background-color: var(--marron);
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px 12px;
     width: 100%;
     position: sticky;
     top: 0;
     z-index: 10;
+    height: 50px;
+    margin-bottom: 100px;
 }
 
 .nav-bar ul li{
@@ -71,3 +74,66 @@ body{
     color: aliceblue;
     
 }
+
+.nav-bar ul li a:hover{
+    background-color: var(--grisoscuro);
+    color: var(--beige);
+    border-radius: 5px;
+    mix-blend-mode: overlay;
+}
+
+/* seccion menu  */
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 550px;
+    margin: 0 auto;
+    overflow-y: auto;
+    scrollbar-color: var(--marron);
+    height: 500px;
+    margin-bottom: 100px;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 6px 3px 12px var(--grisoscuro);
+}
+
+#menu h2{
+    font-size: 1.8em;
+    padding: 12px auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.categoria{
+    width: 85%;
+    margin: 15px ;
+    border-left: 5px solid var(--marron);
+    padding-left: 20px;
+}
+
+.categoria h3{
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.categoria span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.menu-txt{
+    font-weight: 300;
+    margin-bottom: 8px;
+
+}
+
+.categoria li{
+    list-style-type: none;
+    
+}
+
+
+
