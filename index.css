@@ -185,6 +185,67 @@ body{
     display: block;
   }
     
+  /* seccion contacto */
+
+  #contacto{
+    background-color: var(--beige);
+    height: 950px;
+    width: 100%;
+    padding: 50px;
+  }
+
+  .form{
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 25px;
+    
+  }
+
+  label{
+    display: block;
+    font-weight: 300;
+    
+  }
+
+  input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 0;
+
+  }
+
+  input[type="submit"]{
+    background-color: #CB8F52;
+    color: aliceblue;
+  }
+
+  input[type="submit"]:hover{
+    background-color: midnightblue;
+  }
+
+  .addres{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid var(--grisoscuro);
+    padding: 60px;
+  }
+
+  .maps iframe{
+    width: 950px;
+    height: 400px;
+    border: 0;
+    margin-top: 15px;
+  }
+
+
+
 
 
 
